@@ -140,19 +140,11 @@ ul.navlist>li.spc{
 }
 
 ul.navlist>a>li.a{
-    border-bottom: 4px solid rgb(154, 80, 154);
-}
-
-ul.navlist>a>li.s{
-    border-left: 3px solid rgb(255, 255, 255);
-}
-
-ul.navlist>a>li.d{
-    border-left: 3px solid rgb(255, 255, 255);
+    border-bottom: 0.6vh solid rgb(154, 80, 154);
 }
 
 ul.navlist>a>li.s:hover, ul.navlist>a>li.d:hover{
-    border-bottom: 4px solid rgb(154, 80, 154);
+    border-bottom: 0.6vh solid rgb(154, 80, 154);
 }
 
 .mainimg{
@@ -181,7 +173,7 @@ ul.navlist>a>li.s:hover, ul.navlist>a>li.d:hover{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    margin: -13% auto 0 auto;
+    margin: -12vw auto 0 auto;
     width: 75%;
 }
 
